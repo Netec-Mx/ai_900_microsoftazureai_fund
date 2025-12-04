@@ -7,10 +7,10 @@
 
 | 📂 | Laboratory Name 🔬 |
 |---|--------|
-| **Lab1** | [Explore machine learning scenarios](sims/Instructions/Labs/01-explore-ml.md) |  |
+| **Lab1** | [Explore machine learning scenarios](sims/Instructions/Labs/01-explore-ml.md) |  
 | **Lab2** |  [Explore Automated Machine Learning in Azure Machine Learning](fundamentals/Instructions/Exercises/01-machine-learning.md)  |
 | **Lab3** | [Explore a generative AI agent scenario](sims/Instructions/Labs/02-explore-ai-agent.md) |
-| **Lab4** |  [Explore generative AI in Azure AI Foundry portal](fundamentals/Instructions/Exercises/02-generative-ai.md) |  |
+| **Lab4** |  [Explore generative AI in Azure AI Foundry portal](fundamentals/Instructions/Exercises/02-generative-ai.md) |  
 | **Lab5** | [Explore a natural language processing scenario](sims/Instructions/Labs/03-explore-nlp.md)  | 
 | **Lab6** | [Analyze text in Azure AI Foundry portal](fundamentals/Instructions/Exercises/03-text-analysis.md) |
 | **Lab7** |  [Explore speech in Azure AI Foundry portal](fundamentals/Instructions/Exercises/04-speech.md) |
