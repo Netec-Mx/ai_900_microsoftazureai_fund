@@ -1,6 +1,9 @@
 ---
+layout: lab
 lab:
     title: 'Analyze images in Microsoft Foundry'
+prev: /sims/Instructions/Labs/04-explore-vision      
+next: /sims/Instructions/Labs/05-explore-info
 ---
 
 # Analyze images in Microsoft Foundry
@@ -106,6 +109,7 @@ In this task, you use the **Object detection** feature of Image Analysis. Object
 1. Try detecting the objects in **store-camera-4.jpg**
 
 ## Clean up
+{: .lab-note .important .compact}
 
 If you don’t intend to do more exercises, delete any resources that you no longer need. This avoids accruing any unnecessary costs.
 

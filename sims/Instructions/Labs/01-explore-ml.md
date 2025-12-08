@@ -1,7 +1,11 @@
 ---
+layout: lab
 lab:
     title: 'Explore machine learning scenarios'
     description: 'Explore applications that demonstrate how a machine learning model can help you predict unknown information.'
+
+prev: /fundamentals/Instructions/Exercises/06-content-understanding      
+next: /fundamentals/Instructions/Exercises/01-machine-learning
 ---
 
 # Explore machine learning scenarios
@@ -73,3 +77,4 @@ Suppose a retail business wants to group customers into segments for marketing, 
     Each cluster represents a group of customers with similar spending habits.
 
 > **Note**: The applications used in this exercise use machine learning models that are simple, and based on a small set of data features. In a real scenario, data scientists can use a range of machine learning frameworks with platforms like [Azure Machine Learning](https://azure.microsoft.com/products/machine-learning/){:target="_blank"} to develop, deploy, and manage machine learning models.
+{: .lab-note .info .compact}

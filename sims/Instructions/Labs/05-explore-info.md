@@ -1,7 +1,10 @@
 ---
+layout: lab
 lab:
     title: 'Explore AI information extraction scenarios'
     description: 'Explore applications that demonstrates how AI can be used to extract the information from content in multiple formats.'
+prev: /fundamentals/Instructions/Exercises/05-image-analysis       
+next: /fundamentals/Instructions/Exercises/06-content-understanding
 ---
 
 # Explore AI information extraction scenarios
@@ -27,3 +30,4 @@ Now let's examine a different scenario. Suppose the owner of a small business su
 1. Select each message on the left in turn, and review the AI-extracted information for the message on the right. You can also play the message to hear it.
 
 > **Note**: The applications used in this exercise are a *simulations* - there are no actual AI models or services behind them. However, they're based on real capabilities you can implement with [Azure AI Foundry](https://azure.microsoft.com/products/ai-foundry/){:target="_blank"}; and in particular, the [Azure AI Document Intelligence](https://azure.microsoft.com/products/ai-services/ai-document-intelligence/){:target="_blank"} and [Azure AI Content Understanding](https://azure.microsoft.com/products/ai-services/ai-content-understanding){:target="_blank"} services.
+{: .lab-note .info .compact}

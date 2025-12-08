@@ -1,7 +1,10 @@
 ---
+layout: lab
 lab:
     title: 'Explore computer vision scenarios'
     description: 'Explore a applications that demonstrates how AI computer vision capabilities can be used to analyze images, generate captions and tags, and detect objects.'
+prev: /fundamentals/Instructions/Exercises/04-speech    
+next: /fundamentals/Instructions/Exercises/05-image-analysis
 ---
 
 # Explore computer vision scenarios
@@ -34,3 +37,4 @@ Let's look at a different example of computer vision. AI-powered doorbell camera
 1. View the other thumbnails to see the objects detected in them.
 
 > **Note**: The applications used in this exercise are *simulations* - there are no actual AI computer vision service behind them. However, they're based on real capabilities you can implement with [Azure AI Foundry](https://azure.microsoft.com/products/ai-foundry/){:target="_blank"}; and in particular, the [Azure AI Vision](https://azure.microsoft.com/products/ai-services/ai-vision/){:target="_blank"} service.
+{: .lab-note .info .compact}

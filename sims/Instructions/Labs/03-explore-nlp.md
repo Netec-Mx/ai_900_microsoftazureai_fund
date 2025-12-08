@@ -1,7 +1,10 @@
 ---
+layout: lab
 lab:
     title: 'Explore natural language processing scenarios'
     description: 'Explore applications that demonstrates how AI natural language processing capabilities can be used to transcribe and analyze spoken and written text.'
+prev: /fundamentals/Instructions/Exercises/02-generative-ai       
+next: /fundamentals/Instructions/Exercises/03-text-analysis
 ---
 
 # Explore natural language processing scenarios
@@ -31,3 +34,4 @@ Blue Yonder Airlines wants to analyze social media posts that mention the compan
 1. Use the **Stop capturing** button to stop capturing social media posts.
 
 > **Note**: The applications used in this exercise are *simulations* - there are no actual AI speech or language service behind them. However, they're based on real capabilities you can implement with [Azure AI Foundry](https://azure.microsoft.com/products/ai-foundry/){:target="_blank"}; and in particular, the [Azure AI Speech](https://azure.microsoft.com/products/ai-services/ai-speech/){:target="_blank"}, [Azure AI Language](https://azure.microsoft.com/products/ai-services/ai-language){:target="_blank"}, and [Azure AI Translator](https://azure.microsoft.com/products/ai-services/ai-translator){:target="_blank"} services.
+{: .lab-note .info .compact}

@@ -1,6 +1,9 @@
 ---
+layout: lab
 lab:
     title: 'Explore generative AI in Microsoft Foundry'
+prev: /sims/Instructions/Labs/02-explore-ai-agent       
+next: /sims/Instructions/Labs/03-explore-nlp
 ---
 
 # Explore generative AI in Microsoft Foundry
@@ -38,6 +41,7 @@ This exercise takes approximately **20** minutes.
 1. After the project has been created, in the task pane on the left, select **Playgrounds**. 
 
     >*Tip*: If necessary, expand the menu to read its contents by clicking on the top 'expand' icon.
+    {: .lab-note .important .compact}
 
 1. In Foundry's Playgrounds page, select **Try the Chat playground**. Close any tips or quick start panes that are opened.
 
@@ -45,7 +49,8 @@ This exercise takes approximately **20** minutes.
 
     ![Screenshot of the gpt-4o detals page.](./media/chat-playground.png)
 
-    >*Tip*: If you do not see the **Setup** pane in the Chat playground screen, expand the window size.  
+    >*Tip*: If you do not see the **Setup** pane in the Chat playground screen, expand the window size.
+    {: .lab-note .important .compact}  
 
 1. In order to use Chat playground, you need to associate it with a deployed model. In the Chat playground's **Setup** pane, ensure that the **gpt-4o** model you deployed previously is selected. 
 
@@ -117,6 +122,7 @@ This exercise takes approximately **20** minutes.
 1. Close the sample code window.
 
 ## Clean up
+{: .lab-note .important .compact}
 
 If you don’t intend to do more exercises, delete any resources that you no longer need. This avoids accruing any unnecessary costs.
 

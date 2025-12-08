@@ -1,6 +1,9 @@
 ---
+layout: lab
 lab:
     title: 'Extract data with Content Understanding in Microsoft Foundry​'
+prev: /sims/Instructions/Labs/05-explore-info       
+next: /sims/Instructions/Labs/01-explore-ml
 ---
 
 # Extract data with Content Understanding in Microsoft Foundry
@@ -69,6 +72,7 @@ This exercise takes approximately **25** minutes.
     ![Screenshot of the results of analysing the Contoso invoice.](./media/invoice-analysis-json.png)
 
 ## Clean up
+{: .lab-note .important .compact}
 
 If you’ve finished working with the Content Understanding service, you should delete the resources you have created in this exercise to avoid incurring unnecessary Azure costs.
 

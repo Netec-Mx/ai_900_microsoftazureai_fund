@@ -1,6 +1,9 @@
 ---
+layout: lab
 lab:
     title: 'Explore Automated Machine Learning'
+prev: /sims/Instructions/Labs/01-explore-ml      
+next: /sims/Instructions/Labs/02-explore-ai-agent
 ---
 
 # Explore Automated Machine Learning
@@ -8,6 +11,7 @@ lab:
 In this exercise, you'll use the automated machine learning to train and evaluate a machine learning model. You'll then deploy and test the trained model.
 
 > **Note**: This exercise is designed to take you through the steps to train and test a model using ***Azure Machine Learning***. If you have an Azure subscription with sufficient permissions, you can provision an Azure Machine Learning workspace and use that for the exercise. However,  Azure Machine Learning is designed for enterprise-scale machine learning solutions that involve huge volumes of data and cloud-based compute. Some operations in Azure Machine Learning require provisioning compute, which can take considerable time. If you don't have access to Azure, or if you have limited time to complete the exercise, a browser-based ***ML Lab*** app that includes the core functionality of Azure ML used in this exercise is also provided, and you can use that to train and test real machine learning models, just as you would in Azure ML. While the user interface in ML Lab is not *identical* to Azure Machine Learning, it's similar enough to make the transition to Azure Machine Learning intuitive. Note that the ML Lab app runs in the browser, so refreshing the page at any point will restart the app!
+{: .lab-note .info .compact}
 
 This exercise should take approximately **35** minutes to complete (less if you use the browser-based ML Lab app).
 
@@ -20,6 +24,7 @@ A workspace is used to keep all your machine learning resources together, making
     - Browser-based [ML Lab](https://aka.ms/ml-lab){:target="_blank"} at `https://aka.ms/ml-lab`
 
     > **Tip**: If Azure Machine Learning studio opens in an existing workspace, navigate to the **All workspaces** page.
+    {: .lab-note .important .compact}
 
 1. Create a new workspace with a suitable name.
 
@@ -45,6 +50,7 @@ Automated machine learning enables you to try multiple algorithms and parameters
 1. Create a new Automated ML job with the following settings, using **Next** as required to progress through the user interface:
 
     > **Tip**: If no explicit information for a setting is provided in the steps below, use the default value.
+    {: .lab-note .important .compact}
 
     **Basic settings**:
 
@@ -65,6 +71,7 @@ Automated machine learning enables you to try multiple algorithms and parameters
     - Ensure your newly created **ice-cream** data asset is selected before moving to the next step
 
     > **Note**: If you are using an Azure subscription for which you are not an administrator, key-based access to storage may have been disallowed by policy. In this case, you'll need to work with your administrator to allow key-based access or reconfigure your Azure Machine Learning workspace to use Entra ID authentication to access storage. If you can't do this, use the browser-based ***ML Lab*** app for this exercise.
+    {: .lab-note .info .compact}
 
     **Task settings**:
 
@@ -80,6 +87,7 @@ Automated machine learning enables you to try multiple algorithms and parameters
             - **Experiment timeout (minutes)**: 15
         
         > **Note** It's important to set these limits when using Azure Machine Learning, as running training jobs for every possible algorithm and featurization combination could potentially take hours!
+        {: .lab-note .info .compact}
 
     **Compute**:
 
@@ -92,6 +100,7 @@ Automated machine learning enables you to try multiple algorithms and parameters
 1. Wait for the job to finish.
 
     > **Tip**: If you're using Azure Machine Learning, it might take a while — now might be a good time for a coffee break!
+    {: .lab-note .important .compact}
 
 ## Review the best model
 
@@ -114,6 +123,7 @@ When the automated machine learning job has completed, you can review the best m
 1. Wait for a notification that the deployment is complete.
 
     > **Tip**: In Azure Machine Learning studio, endpoint deployment may take 5-10 minutes.
+    {: .lab-note .important .compact}
 
 ## Test the deployed service
 
@@ -181,6 +191,7 @@ After training and deploying a classification model, you can test it in the endp
 ```
 
 ## Clean-up
+{: .lab-note .important .compact}
 
 If you used Azure Machine Learning to complete this exercise you should delete the resources you created to avoid accruing unnecessary Azure usage.
 
@@ -188,7 +199,10 @@ If you used Azure Machine Learning to complete this exercise you should delete t
 
     Deleting your compute ensures your subscription won't be charged for compute resources. You will however be charged a small amount for data storage as long as the Azure Machine Learning workspace exists in your subscription. If you have finished exploring Azure Machine Learning, you can delete the Azure Machine Learning workspace and associated resources.
 
+
 To delete your workspace:
+
 
 1. In the [Azure portal](https://portal.azure.com), in the **Resource groups** page, open the resource group you specified when creating your Azure Machine Learning workspace.
 2. Click **Delete resource group**, type the resource group name to confirm you want to delete it, and select **Delete**.
+

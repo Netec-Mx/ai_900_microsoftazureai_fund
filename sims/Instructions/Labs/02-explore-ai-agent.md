@@ -1,7 +1,10 @@
 ---
+layout: lab
 lab:
     title: 'Explore generative AI and agent scenarios'
     description: 'Explore applications that demonstrate how Generative AI agents can reason over input and data, and generate intelligent responses.'
+prev: /fundamentals/Instructions/Exercises/01-machine-learning    
+next: /fundamentals/Instructions/Exercises/02-generative-ai
 ---
 
 # Explore generative AI and agent scenarios
@@ -15,6 +18,7 @@ This exercise should take approximately **15** minutes to complete.
 Suppose you work for the fictional *Contoso* organization, and you need to submit an expense claim for a recent business trip. The company has created an AI Agent to help employees with expense policies and claims. AI agents are more than just generative AI enabled chatbots. They can also perform actions on your behalf, using access to data and tools to complete tasks. In this case, the agent can generate and submit an expense claim on your behalf.
 
 > **Note**: In this simulated app, the agent's understanding is limited. A real generative AI agent typically has *much* more versatility in understanding and generating language.
+{: .lab-note .info .compact}
 
 1. In a web browser, open the [Expense chat assistant](https://aka.ms/expenses-agent){:target="_blank"} app at `https://aka.ms/expenses-agent`.
 1. In the chat interface, enter a prompt, such as `Hello`, and review the response.
@@ -47,3 +51,4 @@ Suppose a recruitment organization needs to streamline their process by automati
 1. Repeat the process by using **Change Candidate** to select a different resume, and compare it against the available jobs.
 
 > **Note**: The applications used in this exercise are *simulations* - there are no actual AI agents or generative AI models behind them. However, they're based on real capabilities you can implement with [Azure AI Foundry](https://azure.microsoft.com/products/ai-foundry/){:target="_blank"} - in particular the [Azure AI Foundry Agent Service](https://azure.microsoft.com/products/ai-agent-service/){:target="_blank"}.
+{: .lab-note .info .compact}

@@ -1,6 +1,9 @@
 ---
+layout: lab
 lab:
     title: 'Explore speech in Microsoft Foundry'
+prev: /fundamentals/Instructions/Exercises/03-text-analysis     
+next: /sims/Instructions/Labs/04-explore-vision
 ---
 
 # Explore speech in Microsoft Foundry
@@ -56,6 +59,7 @@ Let's try out *speech to text* in Foundry's Speech Playground.
 1. Review the output. 
 
     >*Tip*: To see the full output, you may need to minimize the *Configure* pane. To minimize, select the icon to the right of the *Configure* heading.
+    {: .lab-note .important .compact}
 
     In the output, under **Text**, you can see the audio transcibed into text.
 
@@ -72,6 +76,7 @@ Now let's see how Azure Speech can generate audible speech from text.
     The text is spoken using the selected voice. You can try other voices to compare the spoken output.
 
 ## Clean up
+{: .lab-note .important .compact}
 
 If you don't intend to do more exercises, delete any resources that you no longer need. This avoids accruing any unnecessary costs.
 

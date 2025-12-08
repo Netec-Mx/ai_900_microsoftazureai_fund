@@ -1,6 +1,9 @@
 ---
+layout: lab
 lab:
     title: 'Analyze text in Microsoft Foundry'
+prev: /sims/Instructions/Labs/03-explore-nlp      
+next: /fundamentals/Instructions/Exercises/04-speech
 ---
 
 # Analyze text in Microsoft Foundry
@@ -178,6 +181,7 @@ Now let's translate the French review to English.
     Notice that the French review is translated to English.
 
 ## Clean up
+{: .lab-note .important .compact}
 
 If you don’t intend to do more exercises, delete any resources that you no longer need. This avoids accruing any unnecessary costs.
 
