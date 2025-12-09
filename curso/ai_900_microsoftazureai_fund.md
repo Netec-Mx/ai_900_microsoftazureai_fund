@@ -6,7 +6,7 @@ emoji: ✨
 intro: |
   Bienvenido a la **Plataforma de Laboratorios** del curso **AI-900: Microsoft Azure AI Fundamentals**. Aquí podrás explorar diferentes configuraciones a través de prácticas guiadas. ¡Desarrolla tus habilidades y lleva tus conocimientos al siguiente nivel!
 course_id: ai_900_microsoftazureai_fund # COLOCAR EL NOMBRE DEL CURSO, ES EL NOMBRE DEL ARCHIVO MISMO Y NOMBRE DEFINIDO EN _data/courses.yaml
-permalink: /
+permalink: /ai_900_microsoftazureai_fund
 thanks_note: "**¡Gracias por visitar nuestra plataforma!** No olvides revisar todos los laboratorios y comenzar tu viaje de aprendizaje hoy mismo." 
 footer_title: "¡Gracias por visitar nuestra plataforma!" 
 footer_note: >  
