@@ -1,6 +1,6 @@
 ---
 title: Microsoft Learn - Introduction to AI in Azure exercises
-permalink: index.html
+# permalink: index.html
 layout: home
 ---
 
