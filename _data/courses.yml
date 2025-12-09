@@ -1,6 +1,6 @@
 # _data/courses.yml
-ai_900_microsoftazureaifundamentals: 
-  title: "ai_900_microsoftazureaifundamentals" 
+ai_900_microsoftazureai_fund: 
+  title: "AI_900_MicrosoftAzureAI_Fundamentals" 
   intro: "DESCRIPCIÓN_DEL_CURSO_AQUI"
   labs:
       # EJEMPLO
